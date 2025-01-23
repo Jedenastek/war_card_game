@@ -118,7 +118,7 @@ class Deck:
 
     #split deck and give to each hand (bot and player)
     def split_deck(self):
-        return (self.cards[26:], self.cards[:26])
+        return self.cards[26:], self.cards[:26]
 
 #make class hand
 class Hand:
